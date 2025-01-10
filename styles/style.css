@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 21px;
+font-weight: 700;
+line-height: 25px;
+}
+h1{
+    padding: 0 160px;
+}
+
+
+
+.btn{ 
+    border: 2px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    color: rgb(0, 106, 80);
+    margin-right:160px;
+    padding: 15px 30px 15px 30px;
+
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+}
+
+/*design banner section*/
+
+#bdbanner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1280px;
+    height: 560px;
+    border-radius: 24px;
+    margin: 20px 160px 0 160px;
+background: rgb(198, 228, 214);
+
+
+}
+
+.banner{
+    width: 622px;
+    height: 238px;
+    margin-left: 59px;
+}
+
+
+
+.banner-p{
+    
+    color: rgba(14, 14, 14, 0.5);
+font-family: Fira Sans;
+font-size: 24px;
+font-weight: 500;
+margin-top: 0%;
+}
+
+
+.banner-head{
+
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 56px;
+line-height: 50px;
+font-weight: 800;
+text-align: left;
+display: inline-block;
+margin-right: 64px;
+
+/*auto layout*/
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 16;
+padding: 0px;
+
+}
+
+.banner-image{
+    display: inline-block;
+    width: 474.03px;
+height: 329.21px;
+left: 157.37%;
+right: -157.37%;
+top: 20%;
+bottom: -2.3%;
+margin-right: 59px;
+}
+
+.button{
+    font-size: 16px;
+font-weight: 600;
+    width: 270px;
+height: 56px;
+padding: 17px 34px;
+color: white;
+border: 2px solid black;
+    border-radius: 8px;
+background-color:rgb(0, 106, 80);
+margin-top: 0%;
+}
+
+/*section pillars*/
+.pillars-head{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.pillars{
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:140px
+}
+
+
+
+
+
+.pillars-div{
+
+/* Frame 2087325495 */
+position: static;
+width: 283px;
+height: 240px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+padding: 24px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 24px;
+
+   color: rgb(255, 255, 255);
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+}
+
+
+.icon{
+    width: 49.66px;
+    height: 53.09px;
+    left: 13.34px;
+    top: 1px;
+}
+
+
+.h1{
+
+
+ color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+letter-spacing: 0%;
+
+}
+
+
+.paragraph{
+  
+/* Dolor sit amet consectetur elit. Facilis quas, ducimus labore sequi quos */
+position: static;
+width: 254px;
+height: 72px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 12;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 12px 0px;
+
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
