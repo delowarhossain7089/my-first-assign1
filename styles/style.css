@@ -73,7 +73,7 @@ text-align: left;
 display: inline-block;
 margin-right: 64px;
 
-/*auto layout*/
+
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
@@ -108,6 +108,9 @@ margin-top: 0%;
 }
 
 /*section pillars*/
+.pillars-body{
+    margin-top: 80px;
+}
 .pillars-head{
     color: rgb(14, 14, 14);
 font-family: Fira Sans;
@@ -132,11 +135,10 @@ text-align: left;
 
 .pillars-div{
 
-/* Frame 2087325495 */
 position: static;
 width: 283px;
 height: 240px;
-/* Auto layout */
+
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
@@ -144,8 +146,6 @@ align-items: flex-start;
 gap: 24;
 padding: 24px;
 
-
-/* Inside Auto Layout */
 flex: none;
 order: 0;
 flex-grow: 0;
@@ -182,11 +182,10 @@ letter-spacing: 0%;
 
 .paragraph{
   
-/* Dolor sit amet consectetur elit. Facilis quas, ducimus labore sequi quos */
 position: static;
 width: 254px;
 height: 72px;
-/* Auto layout */
+
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
@@ -195,7 +194,6 @@ gap: 12;
 padding: 0px;
 
 
-/* Inside Auto Layout */
 flex: none;
 order: 1;
 align-self: stretch;
@@ -209,4 +207,213 @@ margin: 12px 0px;
     line-height: 24px;
     letter-spacing: 0%;
     text-align: left;
+}
+
+/*vision designe*/
+
+#vision{
+    margin-top: 80px;
+
+}
+
+.vision-h1{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    padding: 0 160px;
+
+}
+
+.vision-p{
+    width: 1280px;
+height: 48px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin-left: 160px;
+    margin-right: 160px;
+
+}
+
+.vision-father{
+    width: 1280px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 32px 160px;
+}
+
+.vp{
+    padding: 32px;
+}
+
+.vp3{
+    padding: 24px;
+}
+.vision-div1{
+
+    position: static;
+width: 410.67px;
+height: 325px;
+
+    box-sizing: border-box;
+    border-radius: 16px;
+    
+    background: rgba(84, 144, 245, 0.2);
+
+
+}
+
+.vision-div2{
+     
+    position: static;
+width: 410.67px;
+height: 325px;
+
+    box-sizing: border-box;
+    border-radius: 16px;
+    
+    background: rgb(198, 228, 214);
+
+}
+
+.vision-div3{
+
+    position: static;
+width: 410.67px;
+height: 325px;
+
+    box-sizing: border-box;
+border-radius: 16px;
+
+background: rgb(247, 235, 207);
+
+}
+
+.vision-image{
+
+  
+
+}
+
+.div-head{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    
+
+}
+
+.div-p{
+
+position: static;
+width: 346.67px;
+height: 72px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    
+
+}
+
+.div-btn1{
+    position: static;
+width: 122px;
+height: 41px;
+    border-radius: 8px;
+background: rgb(84, 144, 245);
+color: white;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+}
+
+.div-btn2{
+
+    position: static;
+width: 122px;
+height: 41px;
+    border-radius: 8px;
+background: rgb(9, 161, 92);
+color: white;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+}
+
+.div-btn3{
+
+    position: static;
+width: 122px;
+height: 41px;
+border-radius: 8px;
+
+background: rgb(255, 194, 57);
+color: white;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+
+}
+
+/*vision-younus*/
+
+.vision-younus{
+    
+    border: 2px solid black;
+    position: static;
+width: 1280px;
+margin-top: 32px;
+margin-left: 160px;
+margin-right: 160px;
+padding: 24px 48px;
+
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background-color: (255, 255, 255);
+
+
+}
+
+.quote{
+    position: absolute;
+width: 60px;
+height: 54px;
+margin-top: 0px;
+
+}
+
+.vy1{
+    
+    font-size: 16px;
+    gap: 12px;
+font-weight: 400;
+margin: 12px 0px;
+}
+
+.vy2{
+    
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+
+.vy3{
+    font-size: 16px;
+font-weight: 400;
+margin-top: 4px;
+
 }
