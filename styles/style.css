@@ -296,11 +296,7 @@ background: rgb(247, 235, 207);
 
 }
 
-.vision-image{
 
-  
-
-}
 
 .div-head{
     color: rgba(14, 14, 14, 0.8);
@@ -415,5 +411,55 @@ margin: 12px 0px;
     font-size: 16px;
 font-weight: 400;
 margin-top: 4px;
+
+}
+
+
+/*opinion styles*/
+
+#opinion{
+ 
+}
+
+.opinion-head{
+    font-size: 40px;
+    font-weight: 700;
+    
+    width: 1280px;
+    height: 48px;
+    margin: 24px 160px;
+
+}
+
+.div-main{
+    border: 2px solid black;
+    border-radius: 16px;
+    margin: 24px 160px;
+background-color: rgb(255, 255, 255);
+width: 1280px;
+height: 409px;
+padding: 32px 32px 32px 32px;
+
+}
+
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1280px;
+    height: 72px;
+    background: rgb(198, 228, 214);
+    
+}
+
+
+
+
+.li1{
+
+    font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+padding: 24px;
 
 }
