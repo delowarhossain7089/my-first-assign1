@@ -624,3 +624,111 @@ margin-top: 0%;
     margin-top: 24px;
 }
 
+/*donate-section*/
+
+#donate-section{
+    width: 1280px;
+height: 516px;
+margin-left: 318px;
+margin-right: 160px;
+margin-top: 80px;
+
+}
+
+.donate-head{
+    width: 1280px;
+height: 48px;
+text-align: center;
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+
+.donate-para{
+    width: 1104px;
+    height: 48px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-left: 88px;
+    margin-right: 88px;
+    margin-bottom: 32px;
+}
+
+.donate-taka{
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin-bottom: 32px;
+
+}
+
+.tk:hover{
+    background-color: rgba(86, 197, 241, 0.991);
+}
+
+.tk{
+    width: 270px;
+    height: 128px;
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+padding: 40px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+margin: 5px;
+
+background: rgb(255, 255, 255);
+}
+
+.taka{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    width: 950px;
+    height: 64px;
+    margin-left:160px;
+    
+    
+}
+
+
+.placeholder{ 
+    color: rgba(14, 14, 14, 0.3);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 400;
+    width: 187px;
+height: 24px;
+border:none
+}
+
+.dbtn{
+    width: 160px;
+    height: 56px;
+    margin-left: 555px;
+}
+.done-btn{
+    width: 160px;
+height: 56px;
+color: white;
+    border-radius: 8px;
+padding: 17px 34px 17px 34px;
+    background: rgb(0, 106, 80);
+    margin-top: 26px;
+    font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+
+}
